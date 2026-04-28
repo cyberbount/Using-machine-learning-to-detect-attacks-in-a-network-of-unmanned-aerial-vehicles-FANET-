@@ -1,3 +1,36 @@
+# ============================================================
+# FANET DoS Detection – project-specific ignores
+# ============================================================
+
+# NS-3 build artefacts and PCAP output
+ns3/*.pcap
+ns3/*.xml
+ns3/build/
+ns3/.lock-*
+
+# Raw PCAP files (potentially very large)
+dataset/raw-pcap/*.pcap
+dataset/raw-pcap/*.pcapng
+
+# Trained model binaries
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.npy
+# (keep .gitkeep)
+!ml/models/.gitkeep
+
+# Generated result images and logs (keep .gitkeep)
+results/graphs/*.png
+results/graphs/*.pdf
+!results/graphs/.gitkeep
+results/confusion_matrix/*.png
+results/confusion_matrix/*.pdf
+!results/confusion_matrix/.gitkeep
+results/experiment_logs/*.txt
+results/experiment_logs/*.log
+!results/experiment_logs/.gitkeep
+
+# ============================================================
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
