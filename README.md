@@ -78,10 +78,10 @@ This project is part of a university scientific research project.
 Le Thi Minh Hue
 
 ### Simulation & Dataset
-Vu Ngoc Thien
+Tran Dang Cong Tam
 
 ### Machine Learning
-Tran Dang Cong Tam
+Vu Ngoc Thien
 
 ### Scientific Advisor
 Do Dinh Luc
